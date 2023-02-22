@@ -33,8 +33,8 @@ public class main extends Items {
         while ((readerString = reader.readLine()) != null) first(readerString);
         reader.close();
 
-        int startPos = TotalText.indexOf("어떻게") + 3;
-        int endPos = TotalText.lastIndexOf("이 사람이름이냐ㅋㅋ");
+        int startPos = TotalText.indexOf("ㄴㅆㅁㄲㅆ") + 3;
+        int endPos = TotalText.lastIndexOf("뚱");
         TotalText = TotalText.substring(startPos, endPos);
 
         ChangeUni changeUni = new ChangeUni();
